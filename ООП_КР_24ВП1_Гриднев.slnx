@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Setup/Setup.vdproj" Type="Installer">
+    <Build />
+  </Project>
+  <Project Path="ООП_КР_24ВП1_Гриднев/ООП_КР_24ВП1_Гриднев.csproj" />
+</Solution>
