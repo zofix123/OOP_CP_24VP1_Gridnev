@@ -22,14 +22,5 @@ namespace ООП_КР_24ВП1_Гриднев.Models
 
         /// <summary>Дата регистрации клиента в библиотеке. По умолчанию — текущее время.</summary>
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
-
-        /// <summary>
-        /// Возвращает строковое представление клиента в формате «ФИО (тел: номер)».
-        /// </summary>
-        /// <returns>Строка с именем и телефоном клиента.</returns>
-        public override string ToString()
-        {
-            return $"{FullName} (тел: {Phone})";
-        }
     }
 }

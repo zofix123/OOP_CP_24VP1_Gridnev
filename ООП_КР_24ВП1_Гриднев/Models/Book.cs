@@ -38,14 +38,5 @@ namespace ООП_КР_24ВП1_Гриднев.Models
             AuthorFullName = string.Empty;
             Genre = string.Empty;
         }
-
-        /// <summary>
-        /// Возвращает строковое представление книги в формате «Автор - Название (Год)».
-        /// </summary>
-        /// <returns>Строка с автором, названием и годом издания.</returns>
-        public override string ToString()
-        {
-            return $"{AuthorFullName} - {Title} ({Year})";
-        }
     }
 }
