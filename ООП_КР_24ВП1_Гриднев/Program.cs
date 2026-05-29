@@ -15,7 +15,7 @@ namespace ООП_КР_24ВП1_Гриднев
             Application.SetCompatibleTextRenderingDefault(false);
 
             MessageBox.Show(
-                "Курсовая работа по ООП.\nГриднев Э. 24ВП1\nБаза данных «Книги»",
+                "Курсовой проект по ООП.\nГриднев В.Э. 24ВП1\nБаза данных «Книги»",
                 "О программе",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);

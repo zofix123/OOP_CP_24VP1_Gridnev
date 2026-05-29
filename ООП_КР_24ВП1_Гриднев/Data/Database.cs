@@ -202,7 +202,7 @@ namespace ООП_КР_24ВП1_Гриднев.Data
                 "Year" => "Year",
                 "Genre" => "Genre",
                 "Pages" => "PageCount",
-                "isAvailable" => "isAvailable",  // ← добавить
+                "isAvailable" => "isAvailable",
                 _ => "Id"
             };
 

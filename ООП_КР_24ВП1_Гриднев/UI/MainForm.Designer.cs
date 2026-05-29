@@ -61,6 +61,7 @@ namespace ООП_КР_24ВП1_Гриднев.UI
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             tabControl = new TabControl();
             tabBooks = new TabPage();
             dgvBooks = new DataGridView();
@@ -386,27 +387,27 @@ namespace ООП_КР_24ВП1_Гриднев.UI
             btnAdd.Location = new Point(12, 612);
             btnAdd.Margin = new Padding(3, 4, 3, 4);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(130, 38);
+            btnAdd.Size = new Size(150, 38);
             btnAdd.TabIndex = 1;
             btnAdd.Text = "Добавить";
             btnAdd.UseVisualStyleBackColor = true;
             // 
             // btnEdit
             // 
-            btnEdit.Location = new Point(150, 612);
+            btnEdit.Location = new Point(170, 612);
             btnEdit.Margin = new Padding(3, 4, 3, 4);
             btnEdit.Name = "btnEdit";
-            btnEdit.Size = new Size(130, 38);
+            btnEdit.Size = new Size(150, 38);
             btnEdit.TabIndex = 2;
             btnEdit.Text = "Изменить";
             btnEdit.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(290, 612);
+            btnDelete.Location = new Point(330, 612);
             btnDelete.Margin = new Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(130, 38);
+            btnDelete.Size = new Size(150, 38);
             btnDelete.TabIndex = 3;
             btnDelete.Text = "Удалить";
             btnDelete.UseVisualStyleBackColor = true;
@@ -507,11 +508,12 @@ namespace ООП_КР_24ВП1_Гриднев.UI
             Controls.Add(btnEdit);
             Controls.Add(btnAdd);
             Controls.Add(tabControl);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1016, 756);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Библиотечная система «Книги»";
+            Text = "Библиотека";
             FormClosing += MainForm_FormClosing;
             tabControl.ResumeLayout(false);
             tabBooks.ResumeLayout(false);

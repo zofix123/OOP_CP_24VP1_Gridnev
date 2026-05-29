@@ -29,7 +29,11 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<StartupObject>ООП_КР_24ВП1_Гриднев.Program</StartupObject>
+		<ApplicationIcon>Resource\books.ico</ApplicationIcon>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Content Include="Resource\books.ico" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="QuestPDF" Version="2024.12.0" />

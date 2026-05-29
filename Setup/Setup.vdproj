@@ -25,6 +25,12 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_966B8A30950B43BA810BA1DA6D3862AB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -142,6 +148,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_966B8A30950B43BA810BA1DA6D3862AB"
+            {
+            "SourcePath" = "8:..\\ООП_КР_24ВП1_Гриднев\\Resource\\books.ico"
+            "TargetName" = "8:books.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_608EEAAC1DE74122ACB27C03A409974D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -199,7 +225,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:База данных «Книги»"
         "ProductCode" = "8:{1CCDB432-3220-4AE4-92F2-1E8F25591C9B}"
-        "PackageCode" = "8:{0242286F-0F48-4813-B42D-A6824BF6D1AD}"
+        "PackageCode" = "8:{C075395A-E2EB-44AA-B677-8B6F3CF5EE02}"
         "UpgradeCode" = "8:{2E67D68A-0604-47A6-89B2-104680AEAE19}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -319,6 +345,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A6B2F158838C42109CF61C920EB60641"
+            {
+            "Name" = "8:Библиотека"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_4A2E6C67A037481A993B87535893D119"
+            "Folder" = "8:_678BCEF2FEB24540A5C75CE29569DB5C"
+            "WorkingFolder" = "8:_608EEAAC1DE74122ACB27C03A409974D"
+            "Icon" = "8:_966B8A30950B43BA810BA1DA6D3862AB"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -720,7 +760,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4A2E6C67A037481A993B87535893D119"
             {
-            "SourcePath" = "8:..\\ООП_КР_24ВП1_Гриднев\\obj\\Debug\\net8.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\ООП_КР_24ВП1_Гриднев\\obj\\Release\\net8.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_608EEAAC1DE74122ACB27C03A409974D"
